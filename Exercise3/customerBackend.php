@@ -8,6 +8,8 @@
 * Last Modified: 10/01/2017
 */
 
+echo "<link rel='stylesheet' type='text/css' href='style.css' />";
+
 $background_color = lightblue;
 
 $username = $_POST['username'];
@@ -125,14 +127,5 @@ echo "<tr>";
   echo "<th class=header><b>$".$grandTotal.".00</b></th>";
 echo "</tr>";
 echo "</table>";
-
-//CSS
-echo "<style> td.header{ background-color: #87E274; }</style>";
-echo "<style> body{ background-color: lightblue; }</style>";
-echo "<style>table{ background-color: #CC92CF; border: white; text-align: center; }</style>";
-echo "<style>table.table2{ border-top: none; border: white; }</style>";
-echo "<style>th{ font-weight: normal; }</style>";
-echo "<style>th.header{ background-color: #87E274; }</style>";
-
 
 ?>

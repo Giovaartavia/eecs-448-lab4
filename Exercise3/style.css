@@ -51,3 +51,30 @@ input[type=reset]:hover
 {
     background-color: rgb(155, 35, 35);
 }
+
+td.header
+{ 
+    background-color: #87E274; 
+}
+
+table
+{ 
+    background-color: #CC92CF; 
+    border: white; text-align: center; 
+}
+
+table.table2
+{ 
+    border-top: none;
+    border: white; 
+}
+
+th
+{
+     font-weight: normal;
+}
+
+th.header
+{ 
+    background-color: #87E274; 
+}
