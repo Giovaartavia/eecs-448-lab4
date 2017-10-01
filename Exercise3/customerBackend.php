@@ -1,5 +1,7 @@
 <?php
 
+$background_color = lightblue;
+
 $username = $_POST['username'];
 $password = $_POST['password'];
 

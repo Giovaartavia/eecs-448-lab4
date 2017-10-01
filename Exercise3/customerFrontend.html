@@ -1,19 +1,23 @@
 <html>
     <head>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="style.php" media="screen">
       <h1>Welcome to the Web Store!</h1>
+      <h2 class="store">The 3 Shirts Only Store!</h2>
       <script type="text/javascript"
         src="formChecker.js"></script>
     </head>
 
     <body>
       <form action="customerBackend.php" method="post" onsubmit="return check();">
+        <h2>Credentials:</h2>
         <b>Username: </b> <input type="text" name="username" id="username"><br>
-        <b>Password: </b> <input type="text" name="password" id="password"><br>
+        <b>Password: </b> <input type="text" name="password" id="password"><br> <br>
 
         <h2>What would you like to buy?</h2>
         <b>Shirt A Quantity: </b> <input type="number" name="shirtA" id="shirtA"><br>
         <b>Shirt B Quantity: </b> <input type="number" name="shirtB" id="shirtB"><br>
-        <b>Shirt C Quantity: </b> <input type="number" name="shirtC" id="shirtC"><br>
+        <b>Shirt C Quantity: </b> <input type="number" name="shirtC" id="shirtC"><br> <br>
 
         <h2>Choose a type of shipping:</h2>
         <input type="radio" name="shipping" id="shp1" value="7 Day" />
