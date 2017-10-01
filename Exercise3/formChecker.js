@@ -1,3 +1,12 @@
+/*
+* formChecker.js
+* Checks for valid user input
+* Author: Giovanni Artavia
+* e-mail: giovaartavia@ku.edu
+* Last Modified: 10/01/2017
+*/
+
+
 function check(){
 
   while(true){

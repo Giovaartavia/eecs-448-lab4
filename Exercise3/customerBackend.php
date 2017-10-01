@@ -1,5 +1,12 @@
 <?php
 
+/*
+* customerBackend.php
+* Handles receipt creation based on given user input
+* Author: Giovanni Artavia
+* e-mail: giovaartavia@ku.edu
+* Last Modified: 10/01/2017
+*/
 
 $background_color = lightblue;
 
@@ -32,6 +39,7 @@ echo "<h2>Receipt:</h2>";
 echo "<table border='1' bordercolor='white'>";
 echo "<col width='65'>";
 
+//First table for 4 rows and 4 columns
 for($tr=1;$tr<=4;$tr++){
 
     echo "<tr>";
@@ -96,48 +104,7 @@ for($tr=1;$tr<=4;$tr++){
   }
 echo "</table>";
 
-
-
-
-/*echo "<table border='1'>";
-    for($tr=1;$td<=1;$td++){
-      echo "<tr>";
-      for($td=1;$td<=4;$td++){
-                         echo "<td align='center'>"."$25.00"."</td>";
-        /*if($td==1){
-          echo "<td align='center'>"."Shipping"."<col width='75'>"."</td>";
-        }
-        else if($td==2){
-          echo "<td align='center'>"."Shipping"."<col width='75'>"."</td>";
-        }
-        //echo "<td align='center'>"."$"."</td>";
-      }
-    }
-echo "</tr>";
-echo "</table>";*/
-
-
-
-
-
-/*echo "<table border='1'>";
-
-for($tr=1;$tr<=1;$tr++){
-
-    echo "<tr>";
-        for($td=1;$td<=4;$td++){
-              //Row 1
-              if($tr==1 && $td==1){
-                echo "<td align='center'>"."Shipping"."<col width='150'>"."</td>";
-              }
-              else if($tr==1 && $td==2){
-                echo "<td align='center'>"."Quantity"."</td>";
-             }
-        }
-    echo "</tr>";
-  }
-echo "</table>";*/
-
+//Second table for 1 row and 2 columns
 echo "<table class='table2' border='1' bordercolor='white'>";
 echo "<col width='65'>";
 echo "<col width='165'>";
@@ -149,6 +116,7 @@ echo "<tr>";
 echo "</tr>";
 echo "</table>";
 
+//Third table for 1 row and 2 columns
 echo "<table class='table2' border='1' bordercolor='white'>";
 echo "<col width='232'>";
 echo "<col width='70'>";
@@ -158,8 +126,7 @@ echo "<tr>";
 echo "</tr>";
 echo "</table>";
 
-
-
+//CSS
 echo "<style> td.header{ background-color: #87E274; }</style>";
 echo "<style> body{ background-color: lightblue; }</style>";
 echo "<style>table{ background-color: #CC92CF; border: white; text-align: center; }</style>";
