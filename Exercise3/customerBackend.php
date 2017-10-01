@@ -1,5 +1,6 @@
 <?php
 
+echo "<style> body{ background-color: lightblue; }</style>";
 $background_color = lightblue;
 
 $username = $_POST['username'];
